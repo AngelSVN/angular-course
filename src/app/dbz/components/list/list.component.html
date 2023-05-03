@@ -15,6 +15,6 @@
       <span>{{character.name}}</span> -
       <span><strong>Power:</strong>{{character.power}}</span>
     </div>
-    <button class="btn btn-danger">x</button>
+    <button (click)="onDeleteCharacter(character.id)" class="btn btn-danger">x</button>
   </li>
 </ul>

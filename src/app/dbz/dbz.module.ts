@@ -19,6 +19,5 @@ import { FormsModule } from '@angular/forms';
   exports:[
     MainPageComponent
   ]
-
 })
 export class DbzModule { }
